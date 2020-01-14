@@ -1,4 +1,6 @@
-#Example 1.1: Get today's weather forecast from http://www.bom.gov.au/
+Exercise 1
+
+#Exercise 1.1: Get today's weather forecast from http://www.bom.gov.au/
 
 ```
 # import libraries
@@ -36,7 +38,7 @@ print(name_box.p.string,'\n')
 
 ```
 
-#Example 1.2: Get Tomorrow's weather forecast from http://www.bom.gov.au/
+#Exercise 1.2: Get Tomorrow's weather forecast from http://www.bom.gov.au/
 
 ```
 # import libraries
