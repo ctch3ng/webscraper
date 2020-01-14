@@ -45,8 +45,15 @@ print(name_box.p.string,'\n')
 import urllib
 from bs4 import BeautifulSoup
 
-# Next Day's Forecast
+# Tomorrow's Forecast
+quote_page = 'http://www.bom.gov.au/vic/forecasts/melbourne.shtml'
+hdr = {'User-Agent': 'Mozilla/5.0'}
+req = urllib.request.Request(quote_page, headers=hdr)
+page = urllib.request.urlopen(req)
 
+soup = BeautifulSoup(page, 'lxml')
+
+print(soup.find('p', attrs={'class':'date'}).string,'\n')
 print("Tomorrow's Forecast",'\n')
 
 name_box = soup.find_all(lambda tag: tag.name == 'div' and tag.get('class') == ['day'])[0]
