@@ -8,3 +8,5 @@ Install Beautiful Soup 4
 ```
 conda install beautifulsoup4
 ```
+
+### Exercise 1: Melbourne's Weather
