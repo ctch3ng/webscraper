@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 1 - Melbourne's Weather
 
 ## Exercise 1.1: Get today's weather forecast from http://www.bom.gov.au/
 
