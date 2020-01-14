@@ -9,4 +9,4 @@ Install Beautiful Soup 4
 conda install beautifulsoup4
 ```
 
-### Exercise 1: Melbourne's Weather
+### Exercise 1: [Melbourne's Weather] (https://github.com/ctch3ng/webscraper/blob/master/Exercise%201.md)
