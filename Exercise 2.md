@@ -24,9 +24,3 @@ if soup_2.find('span', attrs={'class': 'pm-number'}):
 else:
     print('Air Quality Index: ',aqi,'\n')
 ```
-
-## Exercise 1.2: Get Tomorrow's AQI and PM number from https://www.airvisual.com/australia/victoria/melbourne
-
-```
-
-```
