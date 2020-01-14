@@ -10,3 +10,4 @@ conda install beautifulsoup4
 ```
 
 ### Exercise 1: [Melbourne's Weather](https://github.com/ctch3ng/webscraper/blob/master/Exercise%201.md)
+### Exercise 2: [Melbourne's AQI and PM number](https://github.com/ctch3ng/webscraper/blob/master/Exercise%202.md)
